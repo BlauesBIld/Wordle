@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply p-4;
+}
+
+h1 {
+  @apply text-4xl font-bold
+}
+
+h2 {
+  @apply text-2xl font-bold mb-2
+}
+
+a {
+  @apply text-blue-500 underline hover:text-blue-700
+}
+
+button {
+  @apply border rounded rounded-md p-2 bg-slate-400;
+}
+
+code {
+  @apply rounded rounded-md bg-green-200 px-1
+}
