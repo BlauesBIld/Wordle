@@ -24,7 +24,7 @@
 
 <script>
 import { possibleGuesses, possibleAnswers } from "~/pages/words";
-import Keyboard from "~/components/Keyboard.vue";
+import Keyboard from "~/components/keyboard.vue";
 
 export default {
     components: {
